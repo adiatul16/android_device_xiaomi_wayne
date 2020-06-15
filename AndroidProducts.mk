@@ -23,9 +23,9 @@
 
 # inherit MI 6X EvolutionX device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_wayne.mk
+    $(LOCAL_DIR)/pa_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_wayne-eng \
-    aosp_wayne-userdebug \
-	aosp_wayne-user
+    pa_wayne-eng \
+    pa_wayne-userdebug \
+	pa_wayne-user
