@@ -109,12 +109,17 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 120
 TW_EXTRA_LANGUAGES := true
+# NTFS and ExFAT support
 TW_INCLUDE_NTFS_3G := true
+TW_INCLUDE_FUSE_EXFAT := true
+
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_SCREEN_BLANK_ON_BOOT := true
+
 # Toolbox instead of busybox
+#TW_FORCE_USE_BUSYBOX := true
 TW_USE_TOOLBOX := true
 # EDL Button
 TW_HAS_EDL_MODE := true
